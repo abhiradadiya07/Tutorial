@@ -1,0 +1,7 @@
+const path = require('path')
+console.log(path.sep)
+const filepath= path.join('/Module','Abhi','test.txt')
+console.log(filepath)
+const base = path.basename(filepath)
+console.log(base)
+console.log(path.resolve(__dirname,'Module','Abhi','test.txt'))
